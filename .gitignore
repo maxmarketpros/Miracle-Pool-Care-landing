@@ -1,0 +1,20 @@
+# dependencies
+node_modules
+
+# build output
+.next
+out
+dist
+
+# env
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# misc
+.turbo
+.vercel
+.DS_Store
+*.log
