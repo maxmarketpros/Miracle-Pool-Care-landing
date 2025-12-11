@@ -173,12 +173,12 @@ export default function HomePage() {
                     <form
                       name="claim-offer"
                       method="POST"
-                      data-netlify="true"
-                      netlify-honeypot="bot-field"
+                      action="/__forms.html"
                       onSubmit={(e) => {
                         e.preventDefault()
                         const form = e.currentTarget
-                        fetch("/", {
+
+                        fetch("/__forms.html", {
                           method: "POST",
                           headers: { "Content-Type": "application/x-www-form-urlencoded" },
                           body: new URLSearchParams(new FormData(form) as any).toString(),

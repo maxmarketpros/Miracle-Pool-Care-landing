@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Netlify Forms Fallback</title>
+  </head>
+  <body>
+    <!-- Static form for Netlify build detection; the React form submits to this endpoint -->
+    <form name="claim-offer" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="claim-offer" />
+      <p hidden>
+        <label>
+          Don’t fill this out: <input name="bot-field" />
+        </label>
+      </p>
+      <label>
+        Full Name
+        <input type="text" name="fullName" required />
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" required />
+      </label>
+      <label>
+        Phone
+        <input type="tel" name="phone" />
+      </label>
+      <label>
+        Service Address
+        <input type="text" name="address" required />
+      </label>
+      <label>
+        Pool Type
+        <select name="poolType">
+          <option value="">Select pool type</option>
+          <option value="chlorine">Chlorine</option>
+          <option value="salt">Salt</option>
+          <option value="not-sure">Not sure</option>
+        </select>
+      </label>
+      <label>
+        Notes
+        <textarea name="notes"></textarea>
+      </label>
+      <fieldset>
+        <legend>Discounts</legend>
+        <label><input type="checkbox" name="discount-senior" /> Senior</label>
+        <label><input type="checkbox" name="discount-firefighter" /> Firefighter</label>
+        <label><input type="checkbox" name="discount-police" /> Police</label>
+        <label><input type="checkbox" name="discount-military" /> Military</label>
+      </fieldset>
+    </form>
+  </body>
+</html>
