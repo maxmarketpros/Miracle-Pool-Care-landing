@@ -17,7 +17,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Get Your First Month For $1 | MIRACLE POOL CARE - Premium Weekly Pool Service",
   description:
-    "Transform your pool with professional tile cleaning and weekly maintenance for just $1 your first month. All chemicals included, clear weekly reports, no contracts. Serving pool owners with expert care.",
+    "Transform your pool with professional tile cleaning and weekly maintenance for just $1 your first month. Basic chemicals included, weekly reports, no contracts. Serving pool owners with expert care.",
   keywords: [
     "pool cleaning service",
     "pool tile cleaning",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Get Your First Month For $1 | MIRACLE POOL CARE",
     description:
-      "Professional weekly pool care and tile cleaning for just $1 your first month. All chemicals included, clear reports, no contracts.",
+      "Professional weekly pool care and tile cleaning for just $1 your first month. Basic chemicals included, weekly reports, no contracts.",
     url: "https://miraclepoolcare.com",
     siteName: "Miracle Pool Care",
     images: [
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Get Your First Month For $1 | MIRACLE POOL CARE",
     description:
-      "Professional weekly pool care and tile cleaning for just $1 your first month. All chemicals included, clear reports.",
+      "Professional weekly pool care and tile cleaning for just $1 your first month. Basic chemicals included, weekly reports.",
     images: ["/images/5.jpg"],
   },
   robots: {

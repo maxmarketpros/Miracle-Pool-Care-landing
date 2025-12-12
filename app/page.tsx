@@ -87,7 +87,7 @@ export default function HomePage() {
                 </h1>
 
                 <p className="text-xl md:text-2xl lg:text-3xl text-cyan-100 leading-relaxed font-light">
-                  Premium weekly pool care + clear weekly reporting
+                  Premium weekly pool care + weekly reporting
                 </p>
 
                 <div className="flex flex-wrap gap-4 text-base text-white/90">
@@ -95,7 +95,7 @@ export default function HomePage() {
                     <div className="flex items-center justify-center size-6 rounded-full bg-cyan-500/20 border border-cyan-400/30">
                       <Check className="size-4 text-cyan-300" />
                     </div>
-                    All chemicals included
+                    Basic chemicals included
                   </span>
                   <span className="flex items-center gap-2">
                     <div className="flex items-center justify-center size-6 rounded-full bg-cyan-500/20 border border-cyan-400/30">
@@ -167,7 +167,7 @@ export default function HomePage() {
                   <>
                     <div className="mb-6 space-y-2">
                       <h2 className="text-2xl lg:text-3xl font-bold text-slate-900">Claim your $1 first month</h2>
-                      <p className="text-base text-slate-600">All chemicals included. Quick response. No contracts.</p>
+                      <p className="text-base text-slate-600">Basic chemicals included. Quick response. No contracts.</p>
                     </div>
 
                     <form
@@ -328,7 +328,7 @@ export default function HomePage() {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-12">
             {[
-              { icon: Droplets, title: "All chemicals included", color: "cyan" },
+              { icon: Droplets, title: "Basic chemicals included", color: "cyan" },
               { icon: FileText, title: "Free weekly report", color: "blue" },
               { icon: Filter, title: "1st filter clean free", color: "cyan" },
               { icon: Gift, title: "Senior discount", color: "amber" },
@@ -544,7 +544,7 @@ export default function HomePage() {
               {[
                 {
                   q: "What does the $1 first month include?",
-                  a: "Your first month includes all our standard weekly services: cleaning, skimming, water testing, chemical balancing, brushing/vacuuming as needed, and your first filter cleaning. All chemicals are included.",
+                  a: "Your first month includes all our standard weekly services: cleaning, skimming, water testing, chemical balancing, brushing/vacuuming as needed, and your first filter cleaning. Basic chemicals are included.",
                 },
                 {
                   q: "How does weekly reporting work?",
