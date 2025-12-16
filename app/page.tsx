@@ -14,16 +14,16 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-cyan-50/20 to-blue-50/30">
-      <section className="relative overflow-hidden min-h-[90vh] flex items-center">
-        <div className="absolute -top-10 left-1/2 -translate-x-1/2 z-20">
-          <div className="w-[230px] h-[106px] rounded-t-none rounded-b-[999px] bg-white/95 backdrop-blur-md shadow-xl ring-1 ring-white/60 overflow-hidden">
-            <div className="h-full flex items-end justify-center pb-5 px-5 translate-y-[15px]">
+      <section className="relative overflow-hidden min-h-[90vh] flex items-center pt-24">
+        <div className="absolute top-0 inset-x-0 z-20">
+          <div className="h-20 bg-white/95 backdrop-blur-md border-b border-white/50 shadow-sm">
+            <div className="h-full flex items-center justify-center px-4">
               <Image
                 src="/images/miraclelogo-p-800-p-500.png"
                 alt="MIRACLE POOL CARE"
-                width={290}
-                height={96}
-                className="h-14 w-auto"
+                width={420}
+                height={145}
+                className="h-16 w-auto"
                 priority
               />
             </div>
@@ -58,11 +58,11 @@ export default function HomePage() {
                   </span>
                 </h1>
 
-                <p className="text-xl md:text-2xl lg:text-3xl text-cyan-100 leading-relaxed font-light">
+                <p className="text-2xl md:text-3xl lg:text-4xl text-cyan-50 leading-relaxed font-semibold">
                   Premium weekly pool care + weekly reporting
                 </p>
 
-                <div className="flex flex-wrap gap-4 text-base text-white/90">
+                <div className="flex flex-wrap gap-5 text-lg md:text-xl text-white/95 font-semibold">
                   <span className="flex items-center gap-2">
                     <div className="flex items-center justify-center size-6 rounded-full bg-cyan-500/20 border border-cyan-400/30">
                       <Check className="size-4 text-cyan-300" />
@@ -95,17 +95,17 @@ export default function HomePage() {
                 </Button>
               </div>
 
-              <div className="flex flex-wrap gap-8 pt-6 text-sm text-white/80">
+              <div className="flex flex-wrap gap-8 pt-6 text-base md:text-lg font-semibold text-white/90">
                 <span className="flex items-center gap-2">
-                  <div className="size-2 rounded-full bg-cyan-400 shadow-lg shadow-cyan-400/50"></div>
+                  <div className="size-2.5 rounded-full bg-cyan-400 shadow-lg shadow-cyan-400/50"></div>
                   Fast response
                 </span>
                 <span className="flex items-center gap-2">
-                  <div className="size-2 rounded-full bg-cyan-400 shadow-lg shadow-cyan-400/50"></div>
+                  <div className="size-2.5 rounded-full bg-cyan-400 shadow-lg shadow-cyan-400/50"></div>
                   Clear reporting
                 </span>
                 <span className="flex items-center gap-2">
-                  <div className="size-2 rounded-full bg-cyan-400 shadow-lg shadow-cyan-400/50"></div>
+                  <div className="size-2.5 rounded-full bg-cyan-400 shadow-lg shadow-cyan-400/50"></div>
                   Professional service
                 </span>
               </div>
